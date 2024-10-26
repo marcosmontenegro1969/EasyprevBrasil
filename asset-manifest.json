@@ -1,24 +1,31 @@
 {
   "files": {
     "main.css": "/EasyprevBrasil/static/css/main.95656f77.css",
-    "main.js": "/EasyprevBrasil/static/js/main.41d641b8.js",
+    "main.js": "/EasyprevBrasil/static/js/main.54ac0729.js",
     "static/js/453.dfb76d42.chunk.js": "/EasyprevBrasil/static/js/453.dfb76d42.chunk.js",
+    "static/media/news3.jpg": "/EasyprevBrasil/static/media/news3.cc43dc6030a64b0e2d55.jpg",
     "static/media/fa-solid-900.ttf": "/EasyprevBrasil/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/about.webp": "/EasyprevBrasil/static/media/about.b6903ba0351cbd700287.webp",
     "static/media/fa-brands-400.ttf": "/EasyprevBrasil/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/EasyprevBrasil/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/fa-brands-400.woff2": "/EasyprevBrasil/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/logo_EasyPrevBrasil.webp": "/EasyprevBrasil/static/media/logo_EasyPrevBrasil.8f795c86c3c58f635028.webp",
+    "static/media/banner.webp": "/EasyprevBrasil/static/media/banner.71e9e1950f637b57e71d.webp",
+    "static/media/news2.jpg": "/EasyprevBrasil/static/media/news2.d3a4a4041f357afb3627.jpg",
+    "static/media/news1.jpg": "/EasyprevBrasil/static/media/news1.08c0bfc1804093a1a5d7.jpg",
     "static/media/fa-regular-400.ttf": "/EasyprevBrasil/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/GrandHotel-Regular.ttf": "/EasyprevBrasil/static/media/GrandHotel-Regular.ecf0519e05e1b7500b28.ttf",
     "static/media/fa-regular-400.woff2": "/EasyprevBrasil/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/icons8-instagram-48.svg": "/EasyprevBrasil/static/media/icons8-instagram-48.c83e628eea4e83e0d2b6c8e54910510c.svg",
     "static/media/fa-v4compatibility.ttf": "/EasyprevBrasil/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/EasyprevBrasil/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/EasyprevBrasil/index.html",
     "main.95656f77.css.map": "/EasyprevBrasil/static/css/main.95656f77.css.map",
-    "main.41d641b8.js.map": "/EasyprevBrasil/static/js/main.41d641b8.js.map",
+    "main.54ac0729.js.map": "/EasyprevBrasil/static/js/main.54ac0729.js.map",
     "453.dfb76d42.chunk.js.map": "/EasyprevBrasil/static/js/453.dfb76d42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95656f77.css",
-    "static/js/main.41d641b8.js"
+    "static/js/main.54ac0729.js"
   ]
 }
