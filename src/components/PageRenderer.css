@@ -1,0 +1,21 @@
+.page-header {
+  margin-top: 3rem;
+  background-color: #4FA9D2; /* Cor de fundo */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 1rem;
+}
+
+.content {
+  font-size: 2em;
+  line-height: 1.6;
+  color: #344150; /* Azul escuro */
+  margin-bottom: 8rem;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}

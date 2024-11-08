@@ -1,0 +1,17 @@
+.language-selector {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.language-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.language-icon:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,116 @@
+/* Header.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-header {
+  padding: 1.5em 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 0 2vw 0 3vw;
+  height: 50px;
+  width: auto;
+}
+
+.navbar {
+  background-color: var(--color-dark-blue);
+  width: 100%;
+}
+
+.navbar-nav {
+  flex-grow: 1;
+  justify-content: space-between;
+  padding-right: 3vw;
+}
+
+.nav-item {
+  margin: 0 1vw;
+  position: relative;
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-white) !important;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-gold) !important;
+}
+
+.navbar-nav .dropdown-menu .dropdown-menu {
+  left: 10%;
+  top: 0;
+  margin-top: -1px;
+}
+
+.dropdown-menu {
+  background-color: var(--color-dark-blue) !important;
+  border: none;
+}
+
+.dropdown-item {
+  color: var(--color-white) !important;
+  white-space: nowrap;
+}
+
+.dropdown-item:hover {
+  background-color: var(--color-light-blue) !important;
+  color: var(--color-dark-blue) !important;
+}
+
+#retirementDropdown,
+#byAgeDropdown,
+#byContributionTimeDropdown,
+#assistanceDropdown {
+  display: flex;
+  padding: 0.5em 0;
+}
+
+.navbar-toggler {
+  border-color: var(--color-light-blue);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2881,132,229, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 768px) {
+  .logo {
+    padding: 0;
+    height: 40px;
+  }
+
+  .navbar-collapse {
+    text-align: center; /* Centraliza todo o conteúdo da navbar */
+  }
+
+  .navbar-nav .nav-item {
+    display: block; /* Cada item ocupa uma linha inteira */
+    width: 100%; /* Garante que todos os itens ocupem toda a largura */
+  }
+
+  .nav-item.dropdown .dropdown-toggle {
+    width: 100%; /* Garante que o dropdown toggle também ocupe a largura total */
+    text-align: center; /* Centraliza o texto do dropdown */
+  }
+
+  .dropdown-menu {
+    width: 100%; /* O dropdown ocupa a largura total */
+    text-align: center; /* Centraliza o conteúdo do dropdown */
+  }
+
+  .dropdown-item {
+    text-align: center; /* Centraliza cada item dentro do dropdown */
+  }
+}

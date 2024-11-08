@@ -1,0 +1,89 @@
+.footer {
+  background-color: var( --color-dark-blue);
+  color: var(--color-white); /* Adiciona cor branca ao footer */
+  padding: 0.5em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-top: 2rem; /* Define o espaçamento abaixo do componente home */
+
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+}
+
+.footer-icon {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+.instagram-link {
+  text-decoration: none;
+}
+
+.instagram-text {
+  font-family: 'Grand Hotel', sans-serif;
+  font-size: 1.8rem;
+  color: var(--color-white);
+}
+
+.whatsapp-container {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.whatsapp-icon {
+  color: var(--color-whatsapp-green);
+}
+
+.whatsapp-container a {
+  text-decoration: none; 
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Opcional, adiciona sublinhado ao passar o mouse */
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.footer p {
+  margin: 0;
+  color: var(--color-white);
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-info {
+    margin-bottom: 1em;
+  }
+
+  .footer-bottom {
+    padding: 0 1em;
+  }
+}

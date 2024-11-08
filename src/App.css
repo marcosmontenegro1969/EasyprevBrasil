@@ -1,0 +1,73 @@
+/* App.css */
+
+:root {
+  --color-dark-blue: #344150;
+  --color-light-blue: #4FA9D2;
+  --color-gold: #F0DD5D;
+  --color-light-green: #81BF97;
+  --color-dark-red: #DF6756;
+  --color-white: #ffffff;
+  --color-light-grey: #ddd;
+  --color-dark-black: #000000;
+  --color-dark: #343a40; /* Cor dark do Bootstrap */
+  --color-whatsapp-green: #25D366; /* Cor oficial do WhatsApp */
+  --color-instagram-purple: #C13584; /* Cor oficial do Instagram */
+}
+
+@font-face {
+  font-family: 'Grand Hotel';
+  src: url('/public/fonts/GrandHotel-Regular.ttf') format('opentype');
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--color-white);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 2vw;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 2vw;
+  margin: 2vw 0;
+}
+
+.btn-primary {
+  background-color: var(--color-light-blue);
+  border-color: var(--color-light-blue);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-dark-blue);
+  border-color: var(--color-dark-blue);
+}
+
+h1, h2, h5 {
+  color: var(--color-dark-blue);
+}
+
+p {
+  color: var(--color-dark-blue);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 4vw;
+  }
+}
