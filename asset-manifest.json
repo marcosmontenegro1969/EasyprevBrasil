@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EasyprevBrasil/static/css/main.7f7cd7df.css",
-    "main.js": "/EasyprevBrasil/static/js/main.72137a83.js",
+    "main.css": "/EasyprevBrasil/static/css/main.0b722d51.css",
+    "main.js": "/EasyprevBrasil/static/js/main.f3d20124.js",
     "static/js/453.dfb76d42.chunk.js": "/EasyprevBrasil/static/js/453.dfb76d42.chunk.js",
     "static/media/news3.jpg": "/EasyprevBrasil/static/media/news3.cc43dc6030a64b0e2d55.jpg",
     "static/media/PensaoMorte.jpg": "/EasyprevBrasil/static/media/PensaoMorte.7a4c97dcef7d344bce3c.jpg",
@@ -36,12 +36,12 @@
     "static/media/fa-v4compatibility.ttf": "/EasyprevBrasil/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/EasyprevBrasil/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/EasyprevBrasil/index.html",
-    "main.7f7cd7df.css.map": "/EasyprevBrasil/static/css/main.7f7cd7df.css.map",
-    "main.72137a83.js.map": "/EasyprevBrasil/static/js/main.72137a83.js.map",
+    "main.0b722d51.css.map": "/EasyprevBrasil/static/css/main.0b722d51.css.map",
+    "main.f3d20124.js.map": "/EasyprevBrasil/static/js/main.f3d20124.js.map",
     "453.dfb76d42.chunk.js.map": "/EasyprevBrasil/static/js/453.dfb76d42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f7cd7df.css",
-    "static/js/main.72137a83.js"
+    "static/css/main.0b722d51.css",
+    "static/js/main.f3d20124.js"
   ]
 }
