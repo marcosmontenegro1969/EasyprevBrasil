@@ -26,6 +26,11 @@
   text-decoration: none;
 }
 
+.Instagram-icon {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
 .instagram-text {
   font-family: 'Grand Hotel', sans-serif;
   font-size: 1.8rem;
@@ -74,16 +79,28 @@
 }
 
 @media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
+
+  @media (max-width: 768px) {
+
+    .footer-icon {
+      width: 30px; /* Reduz o tamanho para 24px ou o que achar adequado */
+      height: auto; /* Mantém a proporção da imagem */
+      font-size: 1em;
+      margin-right: 0em; /* Reduz o espaçamento entre o ícone e o texto */
   }
 
-  .contact-info {
-    margin-bottom: 1em;
-  }
+    .footer-text {
+        display: none; /* Oculta os textos "Instagram", "WhatsApp", etc. */
+    }
 
-  .footer-bottom {
-    padding: 0 1em;
-  }
+    .footer-info {
+        font-size: 0.8em; /* Reduz o tamanho da fonte das informações de contato */
+        padding: 5px; /* Reduz o padding total */
+    }
+    
+    .instagram-text {
+      font-size: 1.5rem;
+    }
+
+}
 }

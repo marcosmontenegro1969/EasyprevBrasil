@@ -1,10 +1,10 @@
 // import React from 'react';
 import React, { useState } from 'react';
-import { FaWhatsapp, FaEnvelope } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
+import { IoCalendarOutline } from 'react-icons/io5';
 import ScheduleModal from './ScheduleModal'; // Importa o ScheduleModal
 import './Footer.css';
 import instagramIcon from '../img/icons8-instagram-48.svg';
-
 
 function Footer() {
   const [showModal, setShowModal] = useState(false);
@@ -25,7 +25,7 @@ function Footer() {
 
         <div className="whatsapp-container">
           <a href="https://wa.me/5571992662130?text=Bem-vindo%20ao%20EasyPrevBrasil,%20como%20posso%20lhe%20ajudar?" target="_blank" rel="noopener noreferrer">
-            <FaWhatsapp className="footer-icon whatsapp-icon" />
+            <FaWhatsapp className="footer-icon" style={{ color: 'var(--color-whatsapp-green)' }}/> 
           </a>
           <a href="https://wa.me/5571992662130?text=Bem-vindo%20ao%20EasyPrevBrasil,%20como%20posso%20lhe%20ajudar?" target="_blank" rel="noopener noreferrer">
             <p><strong>WhatsApp</strong></p>
@@ -34,9 +34,9 @@ function Footer() {
 
         <div className="contact-container">
           <div className="contact-info" onClick={handleShow} style={{ cursor: 'pointer' }}>
-            <FaEnvelope className="footer-icon" />
-            <p>Agende sua <strong>CONSULTA</strong></p>
-          </div>
+            <IoCalendarOutline className="footer-icon" />
+            <p style={{ fontSize: '1.2em' }}>Agendar</p>
+            </div>
         </div>
 
       </div>
