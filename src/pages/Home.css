@@ -56,10 +56,10 @@ body {
 
 .banner-text p {
   font-size: 1.8rem;
+  text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.5);
   margin: 0;
   padding: 10px 0;
   color: var(--color-black); /* Define a cor preta para o sub-título */
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 .banner-button {
@@ -256,21 +256,25 @@ body {
   }
 
   .banner-text {
-    top: 20%;
+    top: 10%;
   }
 
   .banner-text h1 {
-    font-size: 1.5rem;
-  }
+    font-size: 1.8rem;
+    padding: 0;
+
+  }  
 
   .banner-text p {
-    font-size: 1rem;
+    font-size: 1.7rem;
+    color: var(--color-white);
+    text-shadow: 3px 3px 1px var(--color-black);
   }
-
+  
   .banner-button {
-    bottom: 15%;
+    bottom: 10%;
     padding: 0.8rem 1.5rem;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
   }
 
   #about {

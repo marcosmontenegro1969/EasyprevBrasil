@@ -34,7 +34,8 @@
 .instagram-text {
   font-family: 'Grand Hotel', sans-serif;
   font-size: 1.8rem;
-  color: var(--color-white);
+  color: var(--color-gold);
+
 }
 
 .whatsapp-container {
@@ -77,6 +78,25 @@
   margin: 0;
   color: var(--color-white);
 }
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2); /* Expande o ícone para 110% do tamanho original */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Classe para aplicar a animação de pulsação */
+.icon-pulsar {
+  animation: pulsar 1s ease-in-out infinite; /* Animação com duração de 1 segundo, repetindo infinitamente */
+  transform-origin: center; /* Define o ponto central como origem */
+}
+
 
 @media (max-width: 768px) {
 

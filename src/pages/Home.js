@@ -7,6 +7,7 @@ import aboutImage from '../img/about.webp';
 import newsImage1 from '../img/news1.jpg';
 import newsImage2 from '../img/news2.jpg';
 import newsImage3 from '../img/news3.jpg';
+import newsImage4 from '../img/news4.jpg';
 
 function Home() {
   const [showModal, setShowModal] = useState(false);
@@ -111,17 +112,17 @@ function Home() {
             <div className="row">
               <div className="col-md-4">
                 <div className="card">
-                  <img src={newsImage1} alt="Notícia 1" className="card-img-top" />
+                  <img src={newsImage4} alt="Notícia 4" className="card-img-top" />
                   <div className="card-body">
-                    <h5 className="card-title">Não é permitido descontar acima de 30% para pagamento de empréstimos consignados</h5>
-                    <p className="card-text">Saiba mais sobre as regras para descontos em empréstimos consignados.</p>
-                    <a href="https://www.jusbrasil.com.br/artigos/nao-e-permitido-descontar-acima-de-30-do-salario-soldo-aposentadoria-para-pagamento-de-emprestimos-consignados/1483674989" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Leia mais</a>
+                    <h5 className="card-title">Aposentadoria especial do INSS tem novas regras com reforma da Previdência; entenda</h5>
+                    <p className="card-text">O benefício é destinado apenas para algumas carreiras específicas.</p>
+                    <a href="https://economia.ig.com.br/2024-10-26/inss-regra-aposentadoria-especial.html" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Leia mais</a>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="card">
-                  <img src={newsImage2} alt="Notícia 2" className="card-img-top" />
+                  <img src={newsImage2} alt="Notícia 5" className="card-img-top" />
                   <div className="card-body">
                     <h5 className="card-title">STF determina pagamento de benefício assistencial a idosos</h5>
                     <p className="card-text">A decisão do STF sobre o pagamento de benefícios assistenciais.</p>
@@ -131,7 +132,7 @@ function Home() {
               </div>
               <div className="col-md-4">
                 <div className="card">
-                  <img src={newsImage3} alt="Notícia 3" className="card-img-top" />
+                  <img src={newsImage3} alt="Notícia 6" className="card-img-top" />
                   <div className="card-body">
                     <h5 className="card-title">Acordo de Previdência Social entre Brasil e EUA</h5>
                     <p className="card-text">Informações sobre o acordo de previdência social entre Brasil e EUA.</p>
@@ -145,7 +146,7 @@ function Home() {
             <div className="row">
               <div className="col-md-4">
                 <div className="card">
-                  <img src={newsImage1} alt="Notícia 1" className="card-img-top" />
+                  <img src={newsImage1} alt="Notícia 7" className="card-img-top" />
                   <div className="card-body">
                     <h5 className="card-title">Não é permitido descontar acima de 30% para pagamento de empréstimos consignados</h5>
                     <p className="card-text">Saiba mais sobre as regras para descontos em empréstimos consignados.</p>
@@ -155,7 +156,7 @@ function Home() {
               </div>
               <div className="col-md-4">
                 <div className="card">
-                  <img src={newsImage2} alt="Notícia 2" className="card-img-top" />
+                  <img src={newsImage2} alt="Notícia 8" className="card-img-top" />
                   <div className="card-body">
                     <h5 className="card-title">STF determina pagamento de benefício assistencial a idosos</h5>
                     <p className="card-text">A decisão do STF sobre o pagamento de benefícios assistenciais.</p>
@@ -165,7 +166,7 @@ function Home() {
               </div>
               <div className="col-md-4">
                 <div className="card">
-                  <img src={newsImage3} alt="Notícia 3" className="card-img-top" />
+                  <img src={newsImage3} alt="Notícia 9" className="card-img-top" />
                   <div className="card-body">
                     <h5 className="card-title">Acordo de Previdência Social entre Brasil e EUA</h5>
                     <p className="card-text">Informações sobre o acordo de previdência social entre Brasil e EUA.</p>

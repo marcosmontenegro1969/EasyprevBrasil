@@ -17,24 +17,33 @@ function Footer() {
       <div className="footer-content">
 
         <div className="instagram-container">
-          <a href="https://www.instagram.com/easyprevbrasil" target="_blank" rel="noopener noreferrer" className="instagram-link">
+          <a 
+            href="https://www.instagram.com/easyprevbrasil" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="instagram-link"
+          >
             <img src={instagramIcon} alt="Instagram" className="footer-icon" />
             <span className="instagram-text">Instagram</span>
           </a>
         </div>
 
         <div className="whatsapp-container">
-          <a href="https://wa.me/5571992662130?text=Bem-vindo%20ao%20EasyPrevBrasil,%20como%20posso%20lhe%20ajudar?" target="_blank" rel="noopener noreferrer">
-            <FaWhatsapp className="footer-icon" style={{ color: 'var(--color-whatsapp-green)' }}/> 
-          </a>
-          <a href="https://wa.me/5571992662130?text=Bem-vindo%20ao%20EasyPrevBrasil,%20como%20posso%20lhe%20ajudar?" target="_blank" rel="noopener noreferrer">
-            <p><strong>WhatsApp</strong></p>
+          <a 
+            // href="https://wa.me/5571992662130?text=Bem-vindo%20ao%20EasyPrevBrasil,%20como%20posso%20lhe%20ajudar?" target="_blank" 
+            href="https://wa.me/5581997809251?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20atendimento." 
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'flex', alignItems: 'center', color: 'var(--color-whatsapp-green)' }}
+          >
+            <FaWhatsapp className="footer-icon" style={{ color: 'var(--color-whatsapp-green)', marginRight: '5px' }}/> 
+            <strong>WhatsApp</strong>
           </a>
         </div>
 
         <div className="contact-container">
           <div className="contact-info" onClick={handleShow} style={{ cursor: 'pointer' }}>
-            <IoCalendarOutline className="footer-icon" />
+            <IoCalendarOutline className="footer-icon icon-pulsar" />
             <p style={{ fontSize: '1.2em' }}>Agendar</p>
             </div>
         </div>

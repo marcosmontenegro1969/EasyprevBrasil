@@ -14,12 +14,6 @@
   display: none; 
 }
 
-.form-control {
-  background-color: var(--color-white);
-  border: 1px solid var(--color-dark-blue);
-  color: var(--color-dark-blue);
-}
-
 .row {
   padding-top: 1rem;
   display: flex;
@@ -60,4 +54,36 @@ button.btn-fechar:hover {
   background-color: var(--color-light-blue);
   color: var(--color-dark-blue);
 }
+
+/* Estiliza o campo de input do DatePicker */
+.datePicker-form-control {
+  position: relative;
+  width: 13.8rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid var(--color-white);
+  border-color: var(--color-light-blue);
+  outline: none;
+  background: var(--color-dark-blue);
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* estilizar o placeholderText*/
+.datePicker-form-control::placeholder {
+  color: var(--color-white);
+}
+
+@media (max-width: 600px) {
+  .datePicker-form-control {
+    width: 100%; /* Ocupa toda a largura disponível no mobile */
+    height: 2rem; /* Aumenta a altura para melhor visualização */
+    padding: 0.4rem 0.5rem; /* Ajusta o padding para telas menores */
+    font-size: 0.9rem; /* Reduz o tamanho da fonte */
+  }
+}
+
+
+
 

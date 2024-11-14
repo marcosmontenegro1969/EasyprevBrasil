@@ -5,6 +5,10 @@ import './ScheduleModal.css';
 import InputLogin from './InputLogin';
 import InputTextArea from './InputTextArea';
 import InputSelect from './InputSelect';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
+import { format } from 'date-fns';
+
 
 function ScheduleModal({ show, handleClose }) {
   const [formData, setFormData] = useState({
@@ -46,7 +50,13 @@ function ScheduleModal({ show, handleClose }) {
       return;
     }
   
-    const excelLine = `${formData.name};${formData.cpf};${formData.email};${formData.explanation};${formData.phone};${formData.whatsapp};${formData.preference};${formData.bestTime}`;
+    // Formata `bestTime` para uma string legível
+    const formattedBestTime = formData.bestTime 
+      ? format(formData.bestTime, 'dd/MM/yyyy HH:mm') 
+      : '';
+
+    // Cria `excelLine` e `emailContent` com `formattedBestTime`
+    const excelLine = `${formData.name};${formData.cpf};${formData.email};${formData.explanation};${formData.phone};${formData.whatsapp};${formData.preference};${formattedBestTime}`;
     const emailContent = {
       name: formData.name,
       cpf: formData.cpf,
@@ -232,16 +242,32 @@ function ScheduleModal({ show, handleClose }) {
               </Col>
               <Col md={6}>
                 <Form.Group controlId="formBestTime">
+                  <Form.Label>Melhor Dia e Horário para consulta</Form.Label>
+                  <DatePicker
+                    selected={formData.bestTime}
+                    onChange={(date) => setFormData((prevData) => ({ ...prevData, bestTime: date }))}
+                    showTimeSelect
+                    dateFormat="dd/MM/yyyy HH:mm"
+                    timeFormat="HH:mm"
+                    timeIntervals={30} // incrementa de 15 em 15 minutos
+                    minDate={new Date()} // impede a escolha de datas passadas
+                    placeholderText="Selecione data e horário"
+                    className="datePicker-form-control" // ajusta o estilo ao formulário
+                  />  
+                </Form.Group>
+              </Col>
+              {/* <Col md={6}>
+                <Form.Group controlId="formBestTime">
                   <InputLogin
                     type="text"
                     name="bestTime"
-                    label="Melhor Horário"
+                    label="Melhor Dia e Horário para consulta"
                     value={formData.bestTime}
                     onChange={handleChange}
                     autoComplete="off"
                   />
                 </Form.Group>
-              </Col>
+              </Col> */}
             </Row>
           </Form>
         </Modal.Body>
