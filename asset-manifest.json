@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/EasyprevBrasil/static/css/main.0b722d51.css",
-    "main.js": "/EasyprevBrasil/static/js/main.f3d20124.js",
-    "static/js/453.dfb76d42.chunk.js": "/EasyprevBrasil/static/js/453.dfb76d42.chunk.js",
+    "main.css": "/EasyprevBrasil/static/css/main.4aa393e8.css",
+    "main.js": "/EasyprevBrasil/static/js/main.4534cc7e.js",
+    "static/js/453.1bc1fdd9.chunk.js": "/EasyprevBrasil/static/js/453.1bc1fdd9.chunk.js",
     "static/media/news3.jpg": "/EasyprevBrasil/static/media/news3.cc43dc6030a64b0e2d55.jpg",
     "static/media/PensaoMorte.jpg": "/EasyprevBrasil/static/media/PensaoMorte.7a4c97dcef7d344bce3c.jpg",
     "static/media/fa-solid-900.ttf": "/EasyprevBrasil/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -30,18 +30,19 @@
     "static/media/AposentadoriaIdadeDeficiencia.jpg": "/EasyprevBrasil/static/media/AposentadoriaIdadeDeficiencia.8d8fc2a467b362d71308.jpg",
     "static/media/news1.jpg": "/EasyprevBrasil/static/media/news1.08c0bfc1804093a1a5d7.jpg",
     "static/media/fa-regular-400.ttf": "/EasyprevBrasil/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/news4.jpg": "/EasyprevBrasil/static/media/news4.bd9211e422bd11660539.jpg",
     "static/media/GrandHotel-Regular.ttf": "/EasyprevBrasil/static/media/GrandHotel-Regular.ecf0519e05e1b7500b28.ttf",
     "static/media/fa-regular-400.woff2": "/EasyprevBrasil/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/icons8-instagram-48.svg": "/EasyprevBrasil/static/media/icons8-instagram-48.c83e628eea4e83e0d2b6c8e54910510c.svg",
     "static/media/fa-v4compatibility.ttf": "/EasyprevBrasil/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/EasyprevBrasil/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/EasyprevBrasil/index.html",
-    "main.0b722d51.css.map": "/EasyprevBrasil/static/css/main.0b722d51.css.map",
-    "main.f3d20124.js.map": "/EasyprevBrasil/static/js/main.f3d20124.js.map",
-    "453.dfb76d42.chunk.js.map": "/EasyprevBrasil/static/js/453.dfb76d42.chunk.js.map"
+    "main.4aa393e8.css.map": "/EasyprevBrasil/static/css/main.4aa393e8.css.map",
+    "main.4534cc7e.js.map": "/EasyprevBrasil/static/js/main.4534cc7e.js.map",
+    "453.1bc1fdd9.chunk.js.map": "/EasyprevBrasil/static/js/453.1bc1fdd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b722d51.css",
-    "static/js/main.f3d20124.js"
+    "static/css/main.4aa393e8.css",
+    "static/js/main.4534cc7e.js"
   ]
 }
