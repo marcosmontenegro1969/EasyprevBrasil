@@ -91,7 +91,7 @@ function Header() {
             
             <Nav.Link onClick={() => navigateToSection('#news')}>NOTÍCIAS</Nav.Link>
             <Nav.Link onClick={() => navigateToSection('#videos')}>VÍDEOS</Nav.Link>
-            <Nav.Link onClick={() => navigateToSection('#testimonials')}>DEPOIMENTOS</Nav.Link>
+            {/* <Nav.Link onClick={() => navigateToSection('#testimonials')}>DEPOIMENTOS</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

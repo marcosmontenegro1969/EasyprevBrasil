@@ -31,13 +31,13 @@ function Home() {
       <section id="about" className="my-5">
         <h2>Quem Somos</h2>
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-12">
             <p>A EasyPrev Brasil é uma consultoria especializada em planejamento de aposentadoria do INSS voltada para brasileiros residentes no exterior. Nosso objetivo é proporcionar um atendimento personalizado, garantindo que nossos clientes recebam o melhor suporte possível para seus benefícios previdenciários.</p>
             <p>Com uma equipe altamente qualificada, estamos prontos para oferecer soluções eficazes e orientações precisas para que você tenha uma aposentadoria tranquila e bem planejada.</p>
           </div>
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <img src={aboutImage} alt="Sobre a EasyPrev Brasil" className="img-fluid" />
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -242,7 +242,7 @@ function Home() {
         </Carousel>
       </section>
 
-      <section id="testimonials" className="my-5">
+      {/* <section id="testimonials" className="my-5">
         <h2>Depoimentos</h2>
         <div className="row">
           <div className="col-md-6">
@@ -286,7 +286,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <ScheduleModal show={showModal} handleClose={handleClose} />
     </main>

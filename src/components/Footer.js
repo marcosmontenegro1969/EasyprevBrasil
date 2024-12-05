@@ -30,8 +30,7 @@ function Footer() {
 
         <div className="whatsapp-container">
           <a 
-            // href="https://wa.me/5571992662130?text=Bem-vindo%20ao%20EasyPrevBrasil,%20como%20posso%20lhe%20ajudar?" target="_blank" 
-            href="https://wa.me/5581997809251?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20atendimento." 
+            href="https://wa.me/5571992662130?text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20atendimento." 
             target="_blank"
             rel="noopener noreferrer"
             style={{ display: 'flex', alignItems: 'center', color: 'var(--color-whatsapp-green)' }}
