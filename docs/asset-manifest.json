@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/EasyprevBrasil/static/css/main.4aa393e8.css",
-    "main.js": "/EasyprevBrasil/static/js/main.4534cc7e.js",
+    "main.css": "/EasyprevBrasil/static/css/main.6eb6e1de.css",
+    "main.js": "/EasyprevBrasil/static/js/main.6a4711a1.js",
     "static/js/453.1bc1fdd9.chunk.js": "/EasyprevBrasil/static/js/453.1bc1fdd9.chunk.js",
     "static/media/news3.jpg": "/EasyprevBrasil/static/media/news3.cc43dc6030a64b0e2d55.jpg",
     "static/media/PensaoMorte.jpg": "/EasyprevBrasil/static/media/PensaoMorte.7a4c97dcef7d344bce3c.jpg",
     "static/media/fa-solid-900.ttf": "/EasyprevBrasil/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/about.webp": "/EasyprevBrasil/static/media/about.b6903ba0351cbd700287.webp",
     "static/media/AposentadoriaServidorPublico.jpg": "/EasyprevBrasil/static/media/AposentadoriaServidorPublico.b6b73aad20c153aca7fe.jpg",
     "static/media/AmparoIdosoDeficiente.jpg": "/EasyprevBrasil/static/media/AmparoIdosoDeficiente.44604173e69545dbed28.jpg",
     "static/media/AposentadoriaIdadeRural.jpg": "/EasyprevBrasil/static/media/AposentadoriaIdadeRural.fd305b4d586a95d01748.jpg",
@@ -37,12 +36,12 @@
     "static/media/fa-v4compatibility.ttf": "/EasyprevBrasil/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/EasyprevBrasil/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/EasyprevBrasil/index.html",
-    "main.4aa393e8.css.map": "/EasyprevBrasil/static/css/main.4aa393e8.css.map",
-    "main.4534cc7e.js.map": "/EasyprevBrasil/static/js/main.4534cc7e.js.map",
+    "main.6eb6e1de.css.map": "/EasyprevBrasil/static/css/main.6eb6e1de.css.map",
+    "main.6a4711a1.js.map": "/EasyprevBrasil/static/js/main.6a4711a1.js.map",
     "453.1bc1fdd9.chunk.js.map": "/EasyprevBrasil/static/js/453.1bc1fdd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4aa393e8.css",
-    "static/js/main.4534cc7e.js"
+    "static/css/main.6eb6e1de.css",
+    "static/js/main.6a4711a1.js"
   ]
 }

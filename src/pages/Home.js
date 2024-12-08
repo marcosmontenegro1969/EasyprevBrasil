@@ -3,7 +3,7 @@ import './Home.css';
 import { Carousel } from 'react-bootstrap';
 import ScheduleModal from '../components/ScheduleModal';
 import bannerHome from '../img/banner_home_desktop.webp';
-import aboutImage from '../img/about.webp';
+// import aboutImage from '../img/about.webp';
 import newsImage1 from '../img/news1.jpg';
 import newsImage2 from '../img/news2.jpg';
 import newsImage3 from '../img/news3.jpg';
